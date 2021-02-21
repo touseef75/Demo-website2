@@ -197,10 +197,16 @@ button:active{
 .bottom-sevices .service .distination{
     height: 90vh;
 }
+.bottom-sevices .service .distination .im{
+    height: 80vh;
+}
 
 .bottom-sevices .service .content3{
-    margin-top: 50px;
-    margin-left: 150px;
+    /* margin-top: 50px;
+    margin-left: 150px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     line-height: 30px;
     font-size: 0.9rem;
     font-weight: none;
@@ -216,6 +222,7 @@ button:active{
     border: 1px solid white;
     position: absolute;
     right: 620px;
+    
 }
     /* end     */
     .end{
